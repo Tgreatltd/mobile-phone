@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cellphone.css">
+  <style>
+    
+    #face{
+      display: none
+    }
+    #secondscreen{
+      /* display: none; */
+    }
+    #thirdscreen{
+      display: none;
+    }
+    #fourthscreen{
+      display: none;
+    }
+   #off{
+    display: none;
+   }
+   #contactscreen{
+    display: none;
+   }
+   #newcontactscreen{
+    display: none;
+   }
+.mobilo{
+color: black;
+}
+
+#find{
+display: grid;
+align-items: center;
+justify-content: start;
+height: 35px;
+width: 95%;
+border: none;
+background: none;
+}
+#st{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+
+}
+#bo{
+border: 1px solid black;
+width:300px;
+}
+  </style>
+</head>
+<body><div id="all">
+<div id="screen" class="touch">
+   <div id="face">
+    <div id="time">
+      <span id="hour"></span>
+      <span>:</span>
+      <span id="minutes"></span>
+    </div>
+    <!-- <div id="cap">
+      <div id="cap2">
+         <div id="cap3"></div>
+      </div>
+    </div><br> -->
+      
+ <div id="ico">
+  <div id="icon"><i class="fa-solid fa-signal"></i></div>
+  <div id="icon1">LTE</div>
+  <div id="icon2"><i class="fa-solid fa-battery-three-quarters"></i></div>
+  </div><br>
+    <div id="empty"></div>
+    <div id="gallery">
+   <div id="gallery1">
+    <button id="phot1"><div id="map">Google&nbspMaps</div></button>
+    <button id="phot2"><div id="maps">Files</div></button>
+    <button id="phot3"><div id="maps">Photos</div></button>
+    <button id="phot4"><div id="maps">Camera</div></button><br>
+    <button id="phot5"><div id="maps">App&nbspStore</div></button>
+    <button id="phot6"><div id="map">Instagram</div></button>
+    <button id="phot7"><div id="map">iTunes&nbspStore</div></button>
+    <button id="phot8"><div id="map">WhatsApp</div></button><br>
+    <button id="phot9"><div id="maps">Telegram</div></button>
+    <button id="phot10"><div id="maps">Gmail</div></button>
+    <button id="phot11"><div id="maps">Maps</div></button>
+    <button id="phot12"><div id="maps">Notes</div></button> <br>
+    <button id="phot13"><div id="maps">Calendar</div></button>
+    <button id="phot14"><div id="maps">Contacts</div></button>
+    <button id="phot15"><div id="maps">Fitness</div></button>
+    <button id="phot16"><div id="map">Reminders</div></button><br>
+   </div><br>
+   <div id="empty2"></div>
+
+   <div id="gallery2">
+     <button id="phot17" onclick="call()"></button>
+     <button id="phot18"></button>
+     <button id="phot19"></button>
+     <button id="phot20"></button>
+   </div>
+  </div>
+ </div>
+ <!-- the front Camera -->
+ 
+ <!-- the battery level -->
+ <div id="head">
+  <div id="head1">
+     <div id="head2"></div>
+  </div>
+</div><br>
+  
+
+  
+  <!-- second screen -->
+<div id="secondscreen">
+  <div class="stay">MTN - Stay Safe</div>
+  <div id="icol">
+    <div id="icol1"><i class="fa-solid fa-signal"></i></div>
+    <div id="icol2">LTE</div>
+    <div id="icol3"><i class="fa-solid fa-battery-three-quarters"></i></div>
+    </div><br>
+   
+    <div id="day">Swipe to Unlock</div>
+    <div id="swiper"></div>
+    <div id="swipe" onclick="swip()"></div>
+
+</div><br>
+
+<!-- third screen -->
+<div id="thirdscreen">
+  <!-- <div id="head">
+    <div id="head1">
+       <div id="head2"></div>
+    </div>
+  </div><br> -->
+  <div id="time">
+    <span id="ho"></span>
+    <span>:</span>
+    <span id="min"></span>
+  </div>
+    
+<div id="icol">
+<div id="icol1"><i class="fa-solid fa-signal"></i></div>
+<div id="icol2">LTE</div>
+<div id="icol3"><i class="fa-solid fa-battery-three-quarters"></i></div>
+</div><br>
+
+<div id="buttons">
+  <!-- <div id="display"></div> -->
+  <input id="display" type="text">
+  <button id="add" onclick="newnumber()">Add Number</button> 
+ <button id="but1" class="but" onclick="numb('1')">1 <div id="alphaa"></div></button>
+<button id="but2" class="but" onclick="numb('2')">2 <div id="alpha">A B C</div></button>
+<button id="but3" class="but" onclick="numb('3')">3<div id="alpha">D E F</div></button><br>
+<button id="but4" class="but" onclick="numb('4')">4 <div id="alpha">G H I</div></button>
+<button id="but5" class="but" onclick="numb('5')">5 <div id="alpha">J K L</div></button>
+<button id="but6" class="but" onclick="numb('6')">6 <div id="alpha">M N O</div></button><br>
+<button id="but7" class="but" onclick="numb('7')">7 <div id="alpha">P Q R S</div></button>
+<button id="but8" class="but" onclick="numb('8')">8 <div id="alpha">T U V</div></button>
+<button id="but9" class="but" onclick="numb('9')">9 <div id="alpha">W X Y Z</div></button><br>
+<button id="but10" class="but" onclick="numb('*')">* <div id="alphaa"></div></button>
+<button id="but11" class="but" onclick="numb('0')">0 <div id="alpha">+</div></button>
+<button id="but12" class="but" onclick="numb('#')"># <div id="alphaa"></div></button>
+<button id="but13" class="but" onclick="dial()"><i class="fa-solid fa-phone"></i></button>
+<button id="but14" class="but14" onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+<!-- <button id="but15" class="but" onclick="numb()"></button> -->
+</div buttons>
+<div id="favorite">
+<div id="fav"><i class="fa-solid fa-star"></i></div>
+<div id="fav"><i class="fa-solid fa-clock"></i></div>
+<div id="fav"><i class="fa-solid fa-address-book" onclick="tact()"></i></div>
+<div id="fav"><i class="fa-solid fa-braille" onclick="ca()"></i></div>
+<div id="fav"><i class="fa-solid fa-voicemail"></i></div>
+</div favourite icon>
+<div id="cover" onclick="back()">
+<div id="bord" ></div>
+</div>
+</div third screen>
+
+<!-- fourth screen end call -->
+<div id="fourthscreen">
+  <!-- <div id="disp"></div> -->
+  
+  <input id="disp" type="text">88888
+  <input type="text" id="disp2">
+   <div id="mute">
+      <div id="mu"><i class="fa-solid fa-microphone-slash"></i><div id="omo">mute</div></div>
+      <div id="mu"><i class="fa-solid fa-braille"></i><div id="omo">keypad</div></div>
+      <div id="mu"><i class="fa-solid fa-volume-high"></i><div id="omo">speaker</div></div>
+   </div>
+  
+   <div id="plus">
+    <div id="mu"><i class="fa-solid fa-plus"></i><div id="omo">add call</div></div>
+    <div id="mu"><i class="fa-solid fa-video"></i><div id="omo">FaceTime</div></div>
+    <div id="mu"><i class="fa-solid fa-address-book"></i><div id="omo">contacts</div></div>
+   </div>
+   <button id="red" onclick="cut()"><i class="fa-solid fa-phone"></i></button>
+
+   <div id="cover" onclick="back()">
+     <div id="border" ></div></div>
+</div fourthscreen>
+
+<div id="contactscreen">
+  <div id="icol">
+    <div id="icol1"><i class="fa-solid fa-signal"></i></div>
+    <div id="icol2">LTE</div>
+    <div id="icol3"><i class="fa-solid fa-battery-three-quarters"></i></div>
+    </div><br>
+ 
+  <div id="mek">
+    <div id="con"><i class="fa-solid fa-battery-three-quarters"></i></div>
+    <div id="li">list</div>
+    <div id="lov"></div>
+    <div id="plu"><i class="fa-solid fa-plus"></i></div>
+  </div>
+  <div id="tainer">
+  <div id="tac">Contacts</div>
+  <div id="in"><input type="text" id="put" placeholder="Search"></div>
+  <div id="bor"></div>
+  <div id="fle">
+    <div id="tee">T</div>&emsp;
+    <div id="gre">TEEGREAT</div>
+  </div>
+  
+  <div id="bor"></div>
+  <div id="shown"></div>
+  <!-- <div class="wor" id="wo" onclick="lo()">Tobi</div>
+  <div id="bor"></div>
+  <div class="wor" id="st" onclick="swt()">Swt@</div>
+  <div id="bor"></div>
+  <div class="wor" id="lif" onclick="life()">LOML</div>
+  <div id="bor"></div>
+  <div class="wor" id="tabl" onclick="table()">Portable</div>
+  <div id="bor"></div>
+  <div class="wor" id="amal" onclick="tiz()">Tizy Amali</div>
+  <div id="bor"></div>
+  <div class="wor" id="sy" onclick="pop()">Pop</div>
+  <div id="bor"></div>
+  <div id="der"></div> -->
+</div>
+
+  <div id="favorite">
+    <div id="fav"><i class="fa-solid fa-star"></i></div>
+    <div id="fav"><i class="fa-solid fa-clock"></i></div>
+    <div id="fav"  onclick="tact()"><i class="fa-solid fa-address-book"></i></div>
+    <div id="fav"><i class="fa-solid fa-braille" onclick="ca()"></i></div>
+    <div id="fav"><i class="fa-solid fa-voicemail"></i></div>
+    </div favourite icon>
+    <div id="cover" onclick="back()">
+      <div id="bord" ></div>
+      </div>
+</div contact screen>
+
+<div id="newcontactscreen">
+ <div id="addition">
+   <div id="can" class="can">Cancel</div>
+   <div id="cre">New Contact</div>
+   <div id="can" class="can" onclick="done()">Done</div>
+ </div>
+ <div id="cir"><i class="fa-solid fa-address-book"></i></div>
+ <div id="photo">Add Photo</div>
+ <div id="mobile">
+ <input id="input1" class="input" type="text" placeholder="First name">
+ <input  id="input2" class="input"  type="text" placeholder="Last name">
+ <input  id="input3" class="input"  type="text" placeholder="Company"></div>
+
+ <div>
+  <input id="tex" type="text" placeholder="Mobile Number">
+ </div>
+</div new contact screen>
+
+</div screen><br>
+
+<!-- power button -->
+<div id="power" class="power" onclick="powe()"></div>
+
+<!-- volume button -->
+<div id="vol">
+   <div id="lume"></div>
+   <div id="lume1"></div>
+</div volume >
+
+<div id="off" class="offf" >
+<div id="blac"></div>
+<div id="hea">
+  <div id="hea1">
+     <div id="hea2"></div>
+  </div>
+</div><br>
+<div id="cont"></div>
+</div>
+<div id="addon">
+<div id="newcon">
+  <div onclick="create()">Create New Contact</div>
+  <div><i class="fa-solid fa-address-book"></i></div>
+</div>
+<div id="newcon2">
+  <div>Add to Existing Contact</div>
+  <div><i class="fa-solid fa-address-book"></i></div>
+</div>
+</div> 
+</div all>
+</body>
+</html>
+<script src="./cellphone.js"></script>

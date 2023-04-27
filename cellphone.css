@@ -1,0 +1,833 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
+#all{
+    margin-left: 500px;
+    
+}
+
+#ico{
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 788px;
+    top: 30px;
+    font-size: 10px;
+    
+}
+#icon{
+    margin-right: 4px;
+}
+#icon1{
+    
+    margin-right: 4px;
+}
+#screen{
+    border: 2px solid black;
+    height: 690px;
+    width: 360px;
+    border-radius: 50px;
+    background-color: black;
+}
+#face{
+    border: 2px solid black;
+    height: 670px;
+    width: 340px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-color: white;
+    background-image: url(./image/apple\ backkground.jpg);
+}
+#cap{
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 193px;
+    height: 40px;
+    position: absolute;
+    left: 590px;
+    top: -12px;
+    border-radius: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+  
+}
+#cap2{
+  border: 2px solid black;
+   width: 80px;
+   height: 5px;
+   border-radius: 10px;
+   background-color: gray;
+}
+#cap3{
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    margin-left: 90px;
+    margin-top: -4px;
+    border-radius: 100%;
+    background-color: rgb(147, 151, 151);
+}
+#empty{
+    margin-bottom: 30px;
+}
+
+
+button{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+#maps{
+    margin-top: 64px;
+    color: white;
+}
+#map{
+    margin-top: 64px; 
+    color: white;
+    margin-left: -10px;
+}
+#phot1{
+  background-image: url(./image/google\ maps.png); 
+ background-size: contain;
+ background-repeat: no-repeat;  
+}
+
+#phot2{
+background-image: url(./image/iphone\ files.jpg);
+background-size: contain;
+}
+#phot3{
+background-image:url(./image/iphone\ photos.jpg) ;
+background-size: cover;
+}
+
+#phot4{
+background-image: url(./image/ipnone\ camera\ 2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+#phot5{
+background-image: url(./image/apple\ store\ logo.jpg);
+background-size:contain ;   
+background-repeat: no-repeat;   
+}
+#phot6{
+background-image: url(./image/Instagram_icon2.png);
+/* background-position: center; */
+background-size: cover;  
+background-repeat: no-repeat;  
+}
+
+#phot7{
+background-image: url(./image/itunes\ icon\ 2.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+#phot8{
+background-image: url(./image/whatsapp\ icon.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#phot9{
+    background-image: url(./image/telegram.jpg);
+    background-size: contain;
+}
+#phot10{
+background-image: url(./image/gmail\ icoooon.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+}
+#phot11{
+background-size: contain;
+background-image: url(./image/chrome\ icon\ 2.png);
+}
+
+#phot11{
+background-size: contain;
+background-image: url(./image/maps\ icon.jpg);
+}
+#phot12{
+background-size: contain;
+background-image: url(./image/noteapp\ icon.jpg);
+}
+
+#phot13{
+background-size: contain;
+background-image: url(./image/calender\ icon.png);
+
+}
+#phot14{
+background-size: contain;
+background-image: url(./image/contact\ icon.jpg);
+}
+
+#phot15{
+background-size: contain;
+background-image: url(./image/fitness\ icon.jpg);
+}
+#phot16{
+background-size: contain;
+background-image:url(./image/reminder\ icon.jpg);
+}
+
+
+#empty2{
+    margin-bottom: 80px;
+}
+
+
+
+#phot17{
+background-size: contain;
+background-image: url(./image/call\ icon.jpg);
+}
+
+#phot18{
+background-size: contain;
+background-image:url(./image/safari\ icon.jpg);
+}
+#phot19{
+background-size: contain;  
+background-image: url(./image/imessage\ icon2.jpg);
+}
+
+#phot20{
+background-size: contain;
+background-image:url(./image/music\ icon.jpg);
+}
+
+
+#secondscreen{
+    border: 2px solid black;
+    height: 670px;
+    width: 340px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: -10px;
+    background-image: url(./image/background\ image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#head{
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 193px;
+    height: 40px;
+    position: absolute;
+    left: 590px;
+    top: -12px;
+    border-radius: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+  
+}
+#head1{
+  border: 2px solid black;
+   width: 80px;
+   height: 5px;
+   border-radius: 10px;
+   background-color: gray;
+   
+}
+#head2{
+ height: 10px;
+ width: 10px;
+ border: 2px solid black;
+ margin-left: 90px;
+ margin-top: -4px;
+ border-radius: 100%;
+ background-color: rgb(147, 151, 151);
+}
+#day{
+    margin-top: 100px;
+    margin-left: 70px;
+    font-size: 30px;
+    color: white;
+}
+#swiper{
+    margin-top: 480px;
+    margin-bottom: 200px;
+}
+#swipe{
+border: 4px solid white;
+width: 150px;
+border-radius: 4px;
+margin-top: 50px;
+/* position: relative; */
+/* left: 90px; */
+/* top: 150px; */
+margin-left: 90px;
+}
+#swipe:hover{
+border: 4px solid gray;
+border-radius: 4px;
+}
+
+#icol{
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 788px;
+    top: 30px;
+    font-size: 10px;
+    
+}
+#icol1{
+    margin-right: 4px;
+}
+#icol2{
+    
+    margin-right: 4px;
+}
+#icol3{
+    margin-left: 4px;
+}
+
+#thirdscreen{
+    border: 2px solid black;
+    height: 670px;
+    width: 340px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: -30px;
+    /* background-image: url(./image/background\ image1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(153, 141, 141);
+}
+
+#buttons{
+    margin-top: 100px;
+    margin-left: 30px;
+ 
+
+}
+.but{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+  
+    
+}
+
+/* #display{
+    border: 1px solid red;
+    height: 10px;
+    width: 270px;
+    background-color: red;
+    position: absolute;
+    top: 90px;
+    left: 620px;
+    color: black;
+    font-size: 20px;
+} */
+
+#display{
+    height: 20px;
+    width: 280px;
+    /* background-color: red; */
+    position: absolute;
+    top: 90px;
+    left: 580px;
+    color: black;
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+#add{
+    margin-left: 25px;
+    margin-top: -50px;
+    color: blue;
+    display: none;
+    margin-bottom: 50px;
+    position: absolute;
+    background: none;
+    width: 200px;
+    height: 15px;
+
+}
+#alpha{
+    font-size: 10px;
+    /* margin-top: 10px; */
+}
+
+#alphaa{
+    font-size: 10px;
+    margin-top: 10px;
+}
+#but13{
+    margin-left: 110px;
+    background-color: rgb(14, 235, 14);
+    color: white;
+    /* margin-top: 20px; */
+}
+
+.but14{
+border-radius: 100%;
+font-size: 30px;
+display: none;
+border: none;
+}
+
+#favorite{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 340px;
+    height: 62px;
+    color: rgb(17, 2, 2);
+    /* background-color: gray; */
+    align-items: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position: fixed;
+}
+
+.stay{
+color: white;
+font-size: 11px;
+font-weight: 700;
+margin-left: 70px;
+margin-top: 10px;
+animation: big;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+
+}
+@keyframes big{
+100%{
+margin-top: 10px;
+margin-left: 10px;
+}
+
+50%{
+    margin-top: 10px;
+    margin-left: 15px;
+    }
+   
+
+
+0%{
+    margin-top: 10px;
+    margin-left: 60px; 
+}
+}
+
+#time{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#bord{
+width: 150px;
+border: 2px solid black; 
+margin-top: 150px;
+margin-left: 100px;
+border-radius: 20px;
+
+}
+
+#cover{
+    /* background-color: red; */
+    height: 27px;
+    margin-top: -18px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#power{
+    border: 4px solid black;
+    position: absolute;
+    height: 70px;
+    top: 180px;
+    left: 870px;
+    border-radius: 20px;
+
+}
+
+#lume{
+    border: 4px solid black;
+    position: absolute;
+    top: 180px;
+    height:50px;
+    left: 503px;
+    border-radius: 20px;
+}
+#lume1{
+    border: 4px solid black;
+    position: absolute;
+    top: 260px;
+    height:50px;
+    left: 503px;
+    border-radius: 20px;
+}
+
+
+#fourthscreen{
+    border: 2px solid black;
+    height: 670px;
+    width: 340px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: -30px;
+    background-color: white;
+    background-image: url(./image/apple\ backkground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mute{
+    display: flex;
+    color: white;
+    margin-top: 240px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+   
+}
+#mu{
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, black, rgb(171, 171, 226));
+}
+
+#plus{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+#disp{
+position: absolute;
+top: 150px;
+left: 600px;
+color: white;
+font-size: 30px;
+width: 250px;
+background: none;
+border: none;
+display: grid;
+}
+#disp2{
+    position: absolute;
+    top: 175px;
+    left: 600px;
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    background: none;
+    border: none;
+    }
+
+#omo{
+margin-top: 100px;
+font-size: 15px;
+position: absolute;
+}
+
+#red{
+margin-left: 140px;
+height: 70px;
+width: 70px;
+border-radius: 100%;
+font-size: 30px;
+rotate: 135deg;
+color: white;
+background-color: red;
+
+}
+
+
+#border{
+    width: 150px;
+    border: 3px solid rgb(85, 81, 81); 
+    margin-top: 170px;
+    margin-left: 100px;
+    border-radius: 20px; 
+}
+
+
+.offf{
+        border: 2px solid black;
+        height: 690px;
+        width: 360px;
+        border-radius: 50px;
+        background-color: black; 
+        margin-top: -20px;
+        z-index: 5000;
+}
+
+
+
+#blac{
+    border: 2px solid black;
+    height: 670px;
+    width: 340px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-color:black;
+    
+}
+
+
+#hea{
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 193px;
+    height: 40px;
+    position: absolute;
+    left: 590px;
+    top: 6px;
+    border-radius: 20px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+  
+}
+#hea1{
+  border: 2px solid black;
+   width: 80px;
+   height: 5px;
+   border-radius: 10px;
+   background-color: gray;
+   
+}
+#hea2{
+ height: 10px;
+ width: 10px;
+ border: 2px solid black;
+ margin-left: 90px;
+ margin-top: -4px;
+ border-radius: 100%;
+ background-color: rgb(147, 151, 151);
+}
+
+
+
+
+#mek{
+display: flex;
+margin-top: 30px;
+justify-content: space-around;
+margin-left: -30px;
+margin-bottom: 10px;
+}
+
+
+ #con{
+margin-left: 10px;
+ }
+
+ #li{
+    color: red;
+    margin-left: -60px;
+}
+#lov{
+width: 110px;
+}
+#tac{
+margin-left: 10px;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 6px;
+}
+
+#put{
+margin-left: 10px;
+width: 92%;
+border-radius: 5px;
+height: 30px;
+border: none;
+margin-bottom: 20px;
+position: sticky;
+bottom: 10px;
+}
+#fle{
+display: flex;
+margin-left: 10px;
+margin-bottom: 20px;
+}
+#tee{
+border: 1px solid gray;
+height: 50px;
+width: 50px;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+background-color: rgb(56, 54, 54);
+font-size: 30px;
+
+}
+#gre{
+margin-top: 10px;
+font-size: 20px;
+}
+
+#bor{
+border: 1px solid rgb(37, 36, 36);
+width: 92%;
+margin-left: 10px;
+margin-bottom: 20px;
+}
+
+.wor{
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+
+#newcon{
+border: 1px solid white;
+width: 200px;
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: -585px;
+background-color: white;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+margin-left: 100px;
+margin-bottom: 1px;
+}
+
+#newcon2{
+border: 1px solid white;
+width: 200px;
+height: 25px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: white;
+margin-left: 100px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+#addon{
+display: none;
+}
+
+#newcontactscreen{
+    border: 2px solid black;
+    height: 670px;
+    width: 340px;
+    border-radius: 50px;
+    margin-left: 8px;
+    margin-top: -30px;
+    background-color: rgb(153, 141, 141);      
+}
+
+#addition{
+display: flex;
+margin-top: 50px;
+justify-content: space-around;
+margin-bottom: 30px;
+}
+.can{
+color: blue;
+}
+#cir{
+height: 150px;
+width: 150px;
+border-radius: 100%;
+background-color: gray;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 50px;
+margin-left: 100px;
+margin-bottom: 10px;
+}
+#photo{
+margin-left: 140px;
+margin-bottom: 20px;
+color: blue;
+}
+
+.input{
+width: 96%;
+height: 50px;
+border: 1px solid gray;
+padding-left: 10px;
+}
+#mobile{
+margin-bottom: 40px;
+}
+#tex{
+width: 98%;
+height: 50px;
+border: 1px solid gray;
+}
+
+#contactscreen{
+border: 2px solid black;
+height: 670px;
+width: 95%;
+border-radius: 50px;
+margin-left: 8px;
+margin-top: -30px;
+background-color: rgb(153, 141, 141);
+}
+
+
+#tainer{
+/* border: 2px solid black; */
+height: 520px;
+width: 98%;
+margin-left: 5px;
+overflow-y: auto;
+}
+#in{
+position: sticky;
+top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
